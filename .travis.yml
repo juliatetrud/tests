@@ -11,4 +11,4 @@ before_script:
   - node_modules/.bin/newman --version
 
 script:
-  - node_modules/.bin/newman run tests/petstore.postman_collection.json -e tests/petstore.postman_environment.json
+  - node_modules/.bin/newman run petstore.postman_collection.json -e petstore.postman_environment.json
